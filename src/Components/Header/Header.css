@@ -1,0 +1,15 @@
+ .header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+    margin-left: 5%;
+} 
+ .header-logo img {
+    height: 80px;
+    width: 80px;
+} 
+.header-title{
+    font-size: 25px;
+    color:#7cc18e;
+}
