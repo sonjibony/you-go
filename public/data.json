@@ -1,44 +1,46 @@
 [
 {
     "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "img" : "https://images.pexels.com/photos/3758151/pexels-photo-3758151.jpeg?cs=srgb&dl=pexels-alexy-almond-3758151.jpg&fm=jpg&h=300&w=250&fit=crop",
+    "name" : "Easy Pose",
+    "time" : "5min"
 
 },
 {
-    "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "id" : "2",
+    "img" : "https://images.pexels.com/photos/3758156/pexels-photo-3758156.jpeg?cs=srgb&dl=pexels-alexy-almond-3758156.jpg&fm=jpg&h=300&w=250&fit=crop",
+    "name" : "Bridge Pose",
+    "time" : "3min"
 
 },
 {
-    "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "id" : "3",
+    "img" : "https://images.pexels.com/photos/3758054/pexels-photo-3758054.jpeg?cs=srgb&dl=pexels-alexy-almond-3758054.jpg&fm=jpg&h=300&w=250&fit=crop",
+    "name" : "Warrior 2",
+    "time" : "2min"
 
 },
 {
-    "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "id" : "4",
+    "img" : "https://images.pexels.com/photos/3758128/pexels-photo-3758128.jpeg?cs=srgb&dl=pexels-alexy-almond-3758128.jpg&fm=jpg&h=300&w=250&fit=crop",
+    "name" : "Chair Pose",
+    "time" : "1min"
 
 },
 {
-    "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "id" : "5",
+    "img" : "https://images.pexels.com/photos/3758048/pexels-photo-3758048.jpeg?cs=srgb&dl=pexels-alexy-almond-3758048.jpg&fm=jpg&h=300&w=250&fit=crop",
+
+    "name" : "Mountain Pose",
+    "time" : "3min"
 
 },
 {
-    "id" : "1",
-    "img" : "",
-    "name" : "a",
-    "time" : "10m"
+    "id" : "6",
+    "img" : "https://images.pexels.com/photos/3758030/pexels-photo-3758030.jpeg?cs=srgb&dl=pexels-alexy-almond-3758030.jpg&fm=jpg&h=300&w=250&fit=crop",
+
+    "name" : "Tree Pose",
+    "time" : "4min"
 
 }
 

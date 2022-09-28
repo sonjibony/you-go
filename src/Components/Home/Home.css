@@ -1,0 +1,23 @@
+.home{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+.yoga-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+@media screen and (max-width: 768px) {
+    .yoga-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+/* @media screen and (max-width: 768px) {
+    .yoga-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:0px;
+    }  
+} */
