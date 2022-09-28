@@ -1,0 +1,31 @@
+.btn-activity{
+    background-color: #7CC18E;
+    width: 300px;
+    border-radius: 9px;
+    margin-top: 45px;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.exercise-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #7CC18E;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+.break-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #7CC18E;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 9px;
+    margin-top: 15px;
+}
