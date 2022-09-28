@@ -1,5 +1,6 @@
 import React from 'react';
 import Break from '../Break/Break';
+import Details from '../Details/Details';
 import './Activity.css'
 const Activity = () => {
     return (
@@ -9,6 +10,7 @@ const Activity = () => {
             <p>Dhaka, Bangladesh</p>
             </div>  
             <Break></Break>
+            <Details></Details>
         </div>
     );
 };

@@ -9,9 +9,14 @@
 }
 .activity-container{
     
+    
+    
     height: 100vh;
     text-align: center;
     margin-left: 60px;
+    
+    
+    
 }
 @media screen and (max-width: 768px) {
     .home{
@@ -26,7 +31,7 @@
         gap: 10px;
     }
     .activity-container{
-        
+    
         height: 100vh;
         text-align: center;
         margin-top: 30px;

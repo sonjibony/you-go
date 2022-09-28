@@ -2,7 +2,7 @@ import React from 'react';
 import './Break.css';
 const Break = () => {
     return (
-        <div className="break-time">
+        <div>
                 <h2>Add A Break</h2>
                 <div className="break-field">
                     <button className='btn-break'>1m</button>
