@@ -3,6 +3,7 @@ import './Yogas.css'
 const Yogas = (props) => {
     const {name, img, time} = props.yoga;
     const {handleYogaTime} = props;
+    
     //console.log(props)
     return (
         <div className='yoga-card'>

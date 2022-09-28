@@ -1,5 +1,6 @@
 import React from 'react';
 import Break from '../Break/Break';
+import Swal from 'sweetalert2'
 
 import './Activity.css'
 const Activity = (props) => {
@@ -14,6 +15,15 @@ const Activity = (props) => {
         time = time + timeInt;
        
     }
+    const alert =() =>{
+        Swal.fire(
+            'Good job!',
+            'You have completed all of the activities!',
+            'success'
+          )
+          
+    }
+
     return (
         <div>
           <div className="self-info">
@@ -34,7 +44,7 @@ const Activity = (props) => {
            </div>
         
         </div>
-            <button  className='btn-activity'>
+            <button onClick={alert}  className='btn-activity'>
             Activity Completed
            </button>
         </div>
