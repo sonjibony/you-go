@@ -1,0 +1,12 @@
+.btn-break{
+padding: 7px;
+border-radius: 13px;
+margin-left: 3px ;
+width: 45px;
+border: none;
+background-color:#7CC18E ;
+    
+}
+.btn-break:hover{
+    background-color: #ffdc64;
+}

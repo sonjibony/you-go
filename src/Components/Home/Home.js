@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../Activity/Activity';
 import Yogas from '../Yogas/Yogas';
 import './Home.css'
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
             }
             </div> 
             <div className="activity-container">
-                break details
+                <Activity></Activity>
             </div>
         </div>
     );
