@@ -5,6 +5,16 @@ import './Home.css'
 const Home = () => {
     const [yogas, setYogas] = useState([]);
     const [list, setList] = useState([]);
+    const [breakTime, setBreakTime] = useState([]);
+    console.log(breakTime)
+    const handleBreakTime = (breakDuration) =>{
+       localStorage.setItem('break', breakDuration);
+       setBreakTime(breakDuration);
+    }
+    useEffect(() => {
+        const storeBreakTime = localStorage.getItem('break');
+        setBreakTime(storeBreakTime);
+    },[])
     useEffect(() =>{
         fetch ('data.json')
         .then (res => res.json())
@@ -29,7 +39,12 @@ const Home = () => {
             }
             </div> 
             <div className="activity-container">
-                <Activity list={list}></Activity>
+                <Activity 
+                list={list}
+                handleBreakTime ={handleBreakTime}
+                breakTime ={breakTime}
+                
+                ></Activity>
                 
             </div>
         </div>
