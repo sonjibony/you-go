@@ -1,31 +1,29 @@
-.yoga-card{
-    width: 270px;
-    margin-left: 20px;
-    background-color: white;
-    box-shadow: 15px 16px 10px  whitesmoke;
-    font-weight: bold;
-   
+.yoga-card {
+  width: 270px;
+  margin-left: 20px;
+  background-color: white;
+  box-shadow: 15px 16px 10px whitesmoke;
+  font-weight: bold;
 }
 .yoga-card img {
-    padding: 10px;
-    border-radius: 13px;
+  padding: 10px;
+  border-radius: 13px;
 }
-.yoga-info{
-    margin: 10px;
-    line-height: 13px;
+.yoga-info {
+  margin: 10px;
+  line-height: 13px;
 }
-.btn-add{
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 5px;
-    background-color: #BC4598;
+.btn-add {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #bc4598;
 
-    font-weight: bold;
-    border: none;
+  font-weight: bold;
+  border: none;
 }
-.btn-add:hover{
-    background-color:#bc93bd  ;
-
+.btn-add:hover {
+  background-color: #bc93bd;
 }

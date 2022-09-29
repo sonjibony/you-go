@@ -1,25 +1,22 @@
-.title-blog{
-    text-align: center;
-    color: #bc93bd;
-    
-    
+.title-blog {
+  text-align: center;
+  color: #bc93bd;
 }
-.ques-ans{
-    margin-left: 40px;
-    margin-right: 40px;
-    
+
+.ques-ans {
+  margin-left: 40px;
+  margin-right: 40px;
 }
-.line{
-    height: 2px;
-    background-color: #bc4598;
+.line {
+  height: 2px;
+  background-color: #bc4598;
 }
-.line-first{
-    height: 2px;
-    background-color: #bc4598;
-    margin-top: 60px;
+.line-first {
+  height: 2px;
+  background-color: #bc4598;
+  margin-top: 60px;
 }
-.ques{
-    border-left: 5px solid #bc4598;
-    padding-left: 5px;
-    
+.ques {
+  border-left: 5px solid #bc4598;
+  padding-left: 5px;
 }

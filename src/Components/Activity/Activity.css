@@ -1,56 +1,55 @@
-.btn-activity{
-    background-color: #BC4598;
-    width: 300px;
-    border-radius: 9px;
-    margin-top: 45px;
-    border: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-weight: bolder;
-    
+.btn-activity {
+  background-color: #bc4598;
+  width: 300px;
+  border-radius: 9px;
+  margin-top: 45px;
+  border: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bolder;
 }
-.btn-activity:hover{
-    background-color: #bc93bd ;
+.btn-activity:hover {
+  background-color: #bc93bd;
 }
-.exercise-time{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    background-color: #BC4598;
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 9px;
+.exercise-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #bc4598;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 9px;
 }
-.break-time{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    background-color: #BC4598;
-    
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 9px;
-    margin-top: 15px;
+.break-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #bc4598;
+
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 9px;
+  margin-top: 15px;
 }
-.self-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.self-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.self-info img{
-    height: 60px;
-    width: 60px;
+.self-info img {
+  height: 60px;
+  width: 60px;
 }
-.info-field{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    background-color: #BC4598;
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 9px;
+.info-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: #bc4598;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 9px;
 }
