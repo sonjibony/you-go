@@ -6,11 +6,19 @@ const Home = () => {
     const [yogas, setYogas] = useState([]);
     const [list, setList] = useState([]);
     const [breakTime, setBreakTime] = useState([]);
-    console.log(breakTime)
+    
     const handleBreakTime = (breakDuration) =>{
        localStorage.setItem('break', breakDuration);
        setBreakTime(breakDuration);
     }
+
+    // let value =e.target.innerText;
+
+    // const handleBreakTime = (e, breakDuration) =>{
+    //     console.log(value)
+    //     localStorage.setItem('break', breakDuration);
+    //    setBreakTime(breakDuration);
+    // }
     useEffect(() => {
         const storeBreakTime = localStorage.getItem('break');
         setBreakTime(storeBreakTime);
@@ -43,6 +51,7 @@ const Home = () => {
                 list={list}
                 handleBreakTime ={handleBreakTime}
                 breakTime ={breakTime}
+                
                 
                 ></Activity>
                 

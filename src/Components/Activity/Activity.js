@@ -44,7 +44,7 @@ const Activity = (props) => {
             <div>
            <h2>Yoga Details</h2> 
            <div className="exercise-time">
-           <h4>Exercise time</h4>
+           <h4>Yoga time</h4>
     <p>  {time} minutes</p>
            </div>
            <div className="break-time">

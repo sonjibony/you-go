@@ -8,17 +8,25 @@
     gap: 10px;
 }
 .activity-container{
-    
-    
-    
     height: 550px;
     text-align: center;
     margin-left: 60px;
-    
-    
-    
-}
+    }
+/*-----------------------------
+ responsive for medium device
+ ---------------------------- */
 @media screen and (max-width: 768px) {
+    .yoga-container{
+        display: grid;
+        grid-template-columns: 1fr
+        
+    }  
+}
+
+/*-----------------------------
+ responsive for small device
+ ---------------------------- */
+@media screen and (max-width: 576px) {
     .home{
         display: grid;
         grid-template-columns: 1fr;
@@ -38,10 +46,3 @@
         margin-left: 0;
 }
 }
-/* @media screen and (max-width: 768px) {
-    .yoga-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap:0px;
-    }  
-} */
