@@ -26,9 +26,19 @@ const Activity = (props) => {
 
     return (
         <div>
+            <div>
           <div className="self-info">
+            <img src="https://cdn-icons-png.flaticon.com/512/4139/4139951.png" alt="" />
+            <div>
             <h3>Sonjibony Wahid</h3>
             <p>Dhaka, Bangladesh</p>
+</div>
+            </div>
+            <div className="info-field">
+                <h4>Female</h4>
+                <h4>20yrs</h4>
+                <h4>Yoga Lover</h4>
+            </div>
             </div>  
             <Break handleBreakTime= {handleBreakTime}></Break>
             <div>

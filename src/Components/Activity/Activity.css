@@ -33,3 +33,23 @@
     border-radius: 9px;
     margin-top: 15px;
 }
+.self-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.self-info img{
+    height: 60px;
+    width: 60px;
+}
+.info-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #BC4598;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 9px;
+}
