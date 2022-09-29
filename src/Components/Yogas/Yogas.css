@@ -19,11 +19,13 @@
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 5px;
-    background-color:#7cc18e  ;
     border-radius: 5px;
+    background-color: #BC4598;
+
     font-weight: bold;
     border: none;
 }
 .btn-add:hover{
-    background-color: #FFDC64;
+    background-color:#bc93bd  ;
+
 }

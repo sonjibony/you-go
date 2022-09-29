@@ -4,6 +4,7 @@
     gap: 15px;
     margin-top: 15px;
     margin-left: 5%;
+    
 } 
  .header-logo img {
     height: 80px;
@@ -11,5 +12,5 @@
 } 
 .header-title{
     font-size: 25px;
-    color:#7cc18e;
+    color:#bc93bd;
 }

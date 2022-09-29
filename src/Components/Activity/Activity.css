@@ -1,5 +1,5 @@
 .btn-activity{
-    background-color: #7CC18E;
+    background-color: #BC4598;
     width: 300px;
     border-radius: 9px;
     margin-top: 45px;
@@ -8,12 +8,15 @@
     padding-bottom: 25px;
     
 }
+.btn-activity:hover{
+    background-color: #bc93bd ;
+}
 .exercise-time{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: #7CC18E;
+    background-color: #BC4598;
     width: 300px;
     margin: 0 auto;
     border-radius: 9px;
@@ -23,7 +26,8 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: #7CC18E;
+    background-color: #BC4598;
+    
     width: 300px;
     margin: 0 auto;
     border-radius: 9px;
