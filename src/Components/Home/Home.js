@@ -34,7 +34,7 @@ const Home = () => {
       <h3 className="tag-line">
         Select your todays{" "}
         <span className="highlight">external and internal purifier</span>, move
-        through life naturally — without stress.
+        through life naturally, without any stress.
       </h3>
       <div className="home">
         { /* yoga-container */ }
